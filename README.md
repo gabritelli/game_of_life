@@ -23,16 +23,16 @@ In the following input file example we can see an input file specifying the thir
 
 Generation 3:
 4 8
-........\n
-....*...\n
-...**...\n
-........\n
+........<br />
+....*...<br />
+....*\*..<br />
+........<br />
 
 The output should display the correct number of the resulting generation, the grid size (this will always be the same as the one specified in the input file) and the current population state. Given the example above, the expected output would be this:
 
 Generation 4:
 4 8
-........\n
-...**...\n
-...**...\n
-........\n
+........<br />
+...*\*...<br />
+...*\*...<br />
+........<br />
