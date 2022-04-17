@@ -18,21 +18,21 @@ The initial state (the current generation) will be provided via a text file that
 
 the current generation number
 the grid size
-the population state (* represents a live cell, . represents a dead cell)
+the population state (! represents a live cell, . represents a dead cell)
 In the following input file example we can see an input file specifying the third generation on a 4 by 8 grid:
 
 Generation 3:
-4 8
+4 8<br />
 ........<br />
-....*...<br />
-....*\*..<br />
+....!...<br />
+....!!..<br />
 ........<br />
 
 The output should display the correct number of the resulting generation, the grid size (this will always be the same as the one specified in the input file) and the current population state. Given the example above, the expected output would be this:
 
 Generation 4:
-4 8
+4 8<br />
 ........<br />
-...*\*...<br />
-...*\*...<br />
+...!!...<br />
+...!!...<br />
 ........<br />
